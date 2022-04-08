@@ -1,0 +1,57 @@
+{
+	"triggers": [{
+		"platform": "TOLOKA",
+		"method": "tolokaStarted",
+		"events": [
+			{"type": "TASK_STARTED", "value": "PAGE_LOAD"}
+		]
+	},{
+		"platform": "TOLOKA",
+		"method": "tolokaSubmited",
+		"events": [
+			{"type": "TASK_SUBMITED", "value": "PAGE_LOAD"}
+		]
+	},{
+		"platform": "TOLOKA",
+		"method": "tolokaRejected",
+		"events": [
+			{"type": "TASK_TIMEOUT", "value": "PAGE_LOAD"}
+		]
+	},{
+		"platform": "TOLOKA",
+		"method": "tolokaTasksRemote",
+		"events": [
+			{"type": "MINUTES_0.5"}
+		]
+	},{
+		"platform": "TOLOKA",
+		"method": "tolokaRecommenderPool",
+		"events": [
+			{"type": "MINUTES_0.5"}
+		]
+	},{
+		"platform": "TOLOKA",
+		"method": "tolokaEarningsRemote",
+		"events": [
+			{"type": "MINUTES_1"}
+		]
+	},{
+		"platform": "TOLOKA",
+		"method": "tolokaGetUserData",
+		"events": [
+			{"type": "MINUTES_1"}
+		]
+	},{
+		"platform": "TOLOKA",
+		"method": "tolokaFilesRemote",
+		"events": [
+			{"type": "MINUTES_60"}
+		]
+	},{
+		"platform": "TOLOKA",
+		"method": "tolokaConfigUpdate",
+		"events": [
+			{"type": "MINUTES_30"}
+		]
+	}]
+}

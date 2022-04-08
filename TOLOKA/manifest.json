@@ -1,0 +1,55 @@
+{
+    "manifest_version": 2,
+    "name": "Toloka Assistant",
+    "description": "This is an experimental plugin that add extra features to the Toloka user interface.",
+    "minimum_chrome_version": "24.0.1307.0",
+    "version": "0.4.4",
+    "homepage_url": "https://bit.ly/cul-act-gn",
+    "icons": {
+        "16": "img/icon_16.png",
+        "128": "img/icon_128.png"
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "Toloka Assistant"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://sandbox.toloka.yandex.com/*",
+                "https://toloka.yandex.com/*",
+                "https://toloka.ai/*"
+            ],
+            "all_frames": true,
+            "js": [
+                "libs/browser.js",
+                "libs/jquery.js",
+                "libs/socketio.js",
+                "libs/tf.min.js",
+                "js/core.js",
+                "js/store.js",
+                "js/ai.js",
+                "js/fsm.js",
+                "js/triggers.js",
+                "js/front.js",
+                "js/interface.js",
+                "js/web.js"
+            ],
+            "css": [
+                "css/interface.css"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "config/*",
+        "js/*"
+    ],
+    "background": {
+        "page": "background.html",
+        "persistent": true
+    },
+    "permissions": [
+        "tabs", "storage"
+    ],
+    "options_page": "dashboard.html"
+}

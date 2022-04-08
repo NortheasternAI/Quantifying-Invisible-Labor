@@ -1,0 +1,208 @@
+#alertDiv {
+    
+}
+
+.taskList {
+    width: 430px;
+    max-height: 260px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.taskList2 {
+    width: 400px;
+    max-height: 260px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#alertNum {
+    display: none;
+}
+
+#alertPopup {
+    display: none;
+}
+
+.git-label-top {
+    margin: 0px;
+    padding: 0px;
+}
+
+.git-label-sub {
+    margin-top: -2px;
+    font-size: 8px;
+    padding: 0px;
+    line-height: 80%;
+    width:40px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.gig-popup-tasks {
+    width:430px;
+}
+
+.gig-popup-left {
+    float:left;
+}
+
+.gig-popup-left {
+    float: left;
+}
+
+.gig-popup-right {
+    float: right;
+    margin-left: 3px;
+}
+
+.gig-rounded {
+    border-radius: 10px;
+    border: 2px solid #73AD21;
+    padding: 10px;
+    width: 350px;
+    height: 70px;
+    margin-bottom: 10px;
+}
+
+.gig-rounded-highlighted {
+    border: 2px solid #094dba;
+}
+
+.git-label-req {
+    width:40px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.git-label-mid {
+    display: inline-block;
+    width:40px;
+    padding:0;
+    margin-left:5px;
+    text-align: center;
+}
+
+.git-label-title {
+    display:inline-block;
+    width:260px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.git-label-desc {
+    display:inline-block;
+    width:320px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin-bottom: 0px;
+    padding:0;
+    margin:0;
+}
+
+.git-label-reward {
+    color: #47c971;
+}
+
+.git-label-field {
+    display: inline-block;
+    width:40px;
+    padding:0;
+    margin-left:3px;
+    text-align: center;
+}
+
+.git-popup-sett {
+    display:none;
+    width:200px;
+}
+
+.gig-centered {
+    text-align: center;
+}
+
+.gig-checkbox {
+    margin-left: 10px;
+    transform : scale(2);
+}
+
+.links {
+    text-decoration: none;
+    color: inherit;
+    /* cursor: auto; */
+}
+
+.taskLink {
+    cursor: pointer;   
+}
+
+#divSettings {
+    width: 280px;
+}
+
+.gig-sett-div {
+    width: 250px;
+}
+
+.gig-sett-field {
+    width: 200px;
+}
+
+.gig-sett-value {
+    width: 50px;
+    text-align: center;
+}
+
+.gig-sett-button {
+    
+}
+
+.border-bottom {
+    border-bottom: 1px solid black;
+}
+
+.border-top {
+    border-top: 1px solid black;
+}
+
+.alert-num {
+    position: absolute;
+    top: 11px;
+    left: 7px;
+    width: 13px;
+    height: 13px;
+    padding: 0 5px;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    background-color: rgb(66,133,244);
+    border-radius: 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 6px;
+    font-weight: 700;
+    -webkit-justify-content: center;
+    justify-content: center;
+    line-height: 20px;
+    margin-left: 4px;
+    text-align: center;
+    -webkit-transition: padding .2s,opacity .2s,max-width .2s,min-width .2s,easeInOutCubic;
+    transition: padding .2s,opacity .2s,max-width .2s,min-width .2s,easeInOutCubic;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.ButtonSelected {
+    background-color: #ffe8d7;
+}
+
+.ButtonMenu {
+    padding: 2px;
+}
+
+.ButtonElement {
+    padding: 5px;
+}
